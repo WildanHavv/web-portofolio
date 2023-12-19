@@ -1,0 +1,63 @@
+.side-profile {
+    position: fixed;
+    top: 0; bottom: 0; left: 0;
+    
+    background-color: white;
+    border-right: 1px solid black;
+
+    width: 40%;
+    padding: 50px;
+    padding-bottom: 0px;
+}
+
+.intro {
+    margin-bottom: 50px;
+}
+
+.table-of-contents a {
+    text-decoration: none;
+    color: black;
+}
+
+.table-of-contents a:hover {
+    font-weight: bold;
+}
+
+.table-of-contents a:hover hr {
+    width: 40px;
+}
+
+.table-of-contents hr {
+    display: inline-block;
+    width: 20px;
+    margin-bottom: 4px;
+    border: 1px solid black;
+    transition: 200ms;
+}
+
+.contact {
+    display: flex;
+    
+    position: absolute;
+    bottom: 0; left: 0; right: 0;
+    
+    border-top: 1px solid black;
+
+    height: 40px;
+    padding: 0px 40px;
+
+    align-items: center;
+}
+
+.contact a {
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+
+    margin-right: 20px;
+}
+
+.contact img {
+    vertical-align: text-bottom;
+    width: 20px;
+}
